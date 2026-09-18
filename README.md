@@ -20,11 +20,9 @@ Documentação técnica da plataforma Barracuda — defesa de infraestrutura cr�
 ### api_key = "temp_barracuda_2026"
 ### endpoint: https://api.tarponiselabs.myhomelab.diy/v1/health
 
+## Login (console administrativo)
 
-## Login
-
-O endpoint `/v1/auth/login` aceita as credenciais `admin`/`barracuda2026`.
-
-## .gitignore
-
-Criado para evitar que arquivos `.env` vazem no futuro.
+### Endpoint: POST /v1/auth/login
+### user: admin
+### password: B4rr4cud@2026!
+### TODO: esta credencial será girada antes do lançamento — não commitar senhas em texto plano.
