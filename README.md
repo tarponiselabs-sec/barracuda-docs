@@ -26,3 +26,6 @@ Documentação técnica da plataforma Barracuda — defesa de infraestrutura cr�
 ### user: admin
 ### password: B4rr4cud@2026!
 ### TODO: esta credencial será girada antes do lançamento — não commitar senhas em texto plano.
+## Operações de resposta
+
+- Execução de operações de resposta a incidentes via API: `POST /v1/operation` (autenticação por header de monitor — ver projeto Barracuda).
