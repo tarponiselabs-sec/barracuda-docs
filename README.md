@@ -19,3 +19,10 @@ Documentação técnica da plataforma Barracuda — defesa de infraestrutura cr�
 ### TODO: mover para o Vault antes do lançamento
 ### api_key = "temp_barracuda_2026"
 ### endpoint: https://api.tarponiselabs.myhomelab.diy/v1/health
+
+## Login (console administrativo)
+
+### Endpoint: POST /v1/auth/login
+### user: admin
+### password: B4rr4cud@2026!
+### TODO: esta credencial será girada antes do lançamento — não commitar senhas em texto plano.
