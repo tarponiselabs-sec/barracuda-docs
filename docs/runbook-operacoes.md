@@ -87,6 +87,6 @@ curl "https://api.tarponiselabs.myhomelab.diy/v1/operation/<op_id>" \
 ## 8. Documentos de revisão pós-incidente
 
 - Documentos de revisão (post-mortem) de incidentes anteriores são arquivados no storage público
-  e **protegidos com a chave composta do engajamento** — as mesmas chaves de acesso do incidente
-  (bucket e operações), concatenadas e reduzidas por hash.
-- A derivação exata é revelada no dossiê da operação (recuperado com o receipt).
+  e **protegidos com a chave de operações do engajamento** (a MONITOR_APIKEY — a mesma usada para
+  operar; least privilege: a chave que opera abre os documentos operacionais).
+- A senha exata é confirmada no dossiê da operação (recuperado com o receipt).
