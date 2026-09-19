@@ -13,3 +13,4 @@ Data: 2026-09-15 02:47 (plantão)
   Se desligarem, não há registro.
 
 TODO(estagiario): apagar este arquivo antes do release. Ninguém liga pra staging.
+- Licao da fase de acesso inicial (reuso de credencial): GET /v1/lessons/cap8-estagiario
